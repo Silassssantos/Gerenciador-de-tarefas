@@ -1,4 +1,4 @@
-Título do projeto: Gereniador de tarefas
+Título do projeto: Gerenciador de tarefas
 
 Descrição: Fiz esse projeto para praticar minhas habilidades de desenvolvedor front-end, nele foram utilizados as linguagens HTML, CSS e JavaScrip.
 A ideia é bem simples, quis fazer algo como um gerenciador de tarefas (levemente inspirado no trello) onde um apessoa poderia anotar as tarefas para se realizar ao longo da semana.
