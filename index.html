@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="quadro_maior" > 
+    <div class="quadro">
+        <div class="dia segunda">
+            <h2>Segunda</h2>
+        </div>
+        <div class="dia terça">
+            <h2>Terça</h2>
+        </div>
+        <div class="dia quarta">
+            <h2>Quarta</h2>
+        </div>
+        <div class="dia quinta">
+            <h2>Quinta</h2>
+        </div>
+        <div class="dia sexta">
+            <h2>Sexta</h2>
+        </div>
+    
+    </div>
+    <div class="grid0" id="gridZero">
+<textarea class="entrada"></textarea>
+<textarea class="entrada"></textarea>
+<textarea class="entrada"></textarea>
+<textarea class="entrada"></textarea>
+<textarea class="entrada"></textarea>
+    </div>
+
+</div>  
+<div class="grid">
+    <button class="botao" id="botao" onclick="novaLinha()">Adicionar linha</button>
+    <button class="botaoR" id="botao" onclick="removerLinha()">Remover linha</button>
+</div>
+<div class="menuContexto" id="menuContexto">
+    <label for="inputCor" class="sla"> Cor da borda</label>
+    <input type="color" class="inputCor" id="inputCor" class="sla"><br>
+    <label for="fileUpload" class="sla">Mudar fundo</label>
+    <input type="file" id="fileUpload" accept="image/*" class="sla">
+    
+</div>
+
+
+
+<script type="text/javascript" src="/js/funcoes.js"></script>
+</body>
+</html>
